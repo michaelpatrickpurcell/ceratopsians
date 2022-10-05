@@ -132,7 +132,7 @@
 }
 
 \newlength{\offset}
-\setlength{\offset}{0.75in}
+\setlength{\offset}{0.0in}%{0.75in}
 
 \pagecolor{White}
 \begin{document}
@@ -140,29 +140,14 @@
 \begin{center}
 \begin{tikzpicture}
 	\path (0,1.75in) -- (0, 1.75in + \offset);
-	\pic () at (0,0) {skull={Red}{Yellow}{none}{none}{triceratops_skull_rgb.png}};
+	\pic () at (0,0) {skull={Red}{Yellow}{none}{none}{triceratops_skull.png}};
 \end{tikzpicture}
 \end{center}
 \newpage
 \phantom{a}
 \begin{center}
 \begin{tikzpicture}
-	\pic () at (0,0) {skull={none}{none}{Green}{Blue}{triceratops_skull_rgb.png}};
-\end{tikzpicture}
-\end{center}
-\newpage
-\phantom{a}
-\begin{center}
-\begin{tikzpicture}
-	\path (0,1.75in) -- (0, 1.75in + \offset);
-	\pic () at (0,0) {skull={Red}{none}{Green}{none}{triceratops_skull_rgb.png}};
-\end{tikzpicture}
-\end{center}
-\newpage
-\phantom{a}
-\begin{center}
-\begin{tikzpicture}
-	\pic () at (0,0) {skull={none}{Yellow}{none}{Blue}{triceratops_skull_rgb.png}};
+	\pic () at (0,0) {skull={none}{none}{Green}{Blue}{triceratops_skull.png}};
 \end{tikzpicture}
 \end{center}
 \newpage
@@ -170,14 +155,29 @@
 \begin{center}
 \begin{tikzpicture}
 	\path (0,1.75in) -- (0, 1.75in + \offset);
-	\pic () at (0,0) {skull={Red}{none}{none}{Blue}{triceratops_skull_rgb.png}};
+	\pic () at (0,0) {skull={Red}{none}{Green}{none}{triceratops_skull.png}};
 \end{tikzpicture}
 \end{center}
 \newpage
 \phantom{a}
 \begin{center}
 \begin{tikzpicture}
-	\pic () at (0,0) {skull={none}{Yellow}{Green}{none}{triceratops_skull_rgb.png}};
+	\pic () at (0,0) {skull={none}{Yellow}{none}{Blue}{triceratops_skull.png}};
+\end{tikzpicture}
+\end{center}
+\newpage
+\phantom{a}
+\begin{center}
+\begin{tikzpicture}
+	\path (0,1.75in) -- (0, 1.75in + \offset);
+	\pic () at (0,0) {skull={Red}{none}{none}{Blue}{triceratops_skull.png}};
+\end{tikzpicture}
+\end{center}
+\newpage
+\phantom{a}
+\begin{center}
+\begin{tikzpicture}
+	\pic () at (0,0) {skull={none}{Yellow}{Green}{none}{triceratops_skull.png}};
 \end{tikzpicture}
 \end{center}
 \end{document}
