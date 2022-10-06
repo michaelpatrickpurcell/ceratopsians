@@ -65,9 +65,11 @@
 	\pic[transform shape] () at (0in, -6in) {mouth};
 }}
 
-\pagecolor{Sepia}
+\pagecolor{White}
 \begin{document}
 \begin{tikzpicture}
+\clip (-6.3in, -7.375in) rectangle (6.3in, 2.625in); 
+%	\node () at (0,0) {\includegraphics[scale=2.0]{Images/Archive/red_wood.jpg}};
 %	\pic () at (0,0) {centerfrill};
 %	\pic () at (2.5in,0) {rightfrill};
 %	\pic () at (-2.5in,0) {leftfrill};
@@ -82,16 +84,22 @@
 %	\path (-1.75in, -3.0in) --++ (-0.25in,0in) pic {lefthorn};	
 %	\path (0in, -5.5in) --++ (0in,-0.5in) pic {mouth};	
 
-	\pic[scale=0.3] () at (-4in,-1in) {explodedskull};
-	\pic[scale=0.3] () at (0in,-1in) {explodedskull};
-	\pic[scale=0.3] () at (4in,-1in) {explodedskull};
-	\pic[scale=0.3] () at (-4in,-4.5in) {explodedskull};
-	\pic[scale=0.3] () at (0in,-4.5in) {explodedskull};
-	\pic[scale=0.3] () at (4in,-4.5in) {explodedskull};
+%	\pic[scale=0.3] () at (-4in,-1in) {explodedskull};
+%	\pic[scale=0.3] () at (0in,-1in) {explodedskull};
+%	\pic[scale=0.3] () at (4in,-1in) {explodedskull};
+%	\pic[scale=0.3] () at (-4in,-4.5in) {explodedskull};
+%	\pic[scale=0.3] () at (0in,-4.5in) {explodedskull};
+%	\pic[scale=0.3] () at (4in,-4.5in) {explodedskull};
 
-	\path (-6.3in, -7.375in) -- (6.3in, 2.625in);
+%	\pic[scale=0.75] () at (0in, -1.75in) {explodedskull};
+
+	\pic[scale=0.5] () at (-3in, -1.6in) {explodedskull};
+	\pic[scale=0.5] () at (3in, -1.6in) {explodedskull};
+
+%	\path (-6.3in, -7.375in) -- (6.3in, 2.625in);
 %	\node[inner sep=0pt] () at (0, -6in) {\textcolor{Red}{Ceratopsians}};
-		\node[inner sep=0pt] () at (0, 1.25in) {\textcolor{LimeGreen}{Ceratopsians}};
+		\node[inner sep=0pt] () at (0, 1.25in) {\textcolor{Black}{Ceratopsians}};
+		\node[inner sep=0pt] () at (0, -6.5in) {\textcolor{Black}{{\tiny Designed by Michael Purcell}}};
 
 \end{tikzpicture}
 \end{document}
